@@ -1,0 +1,109 @@
+/* CSS Document */
+
+
+* {margin:0;
+	padding:0;}
+
+	/*导航栏属性start*/
+	li {list-style:none;}
+	.nav1 {width:1000px;
+			height:60px;
+			background:#69bded;}
+	#nav .nav1 ul li {width:166.6px;
+						line-height:60px;
+						text-align:center;
+						background:#69bded;
+						float:left;}
+	#nav .nav1 ul li a {color:#000;
+						display:block;
+						width:166.6px;
+						height:60px;
+						text-decoration:none;}
+	#nav .nav1 ul li a:hover{background:#f5a6ac;
+								color:#fff;
+								transition:all 0.7s;}
+	.nav2 .li {position:relative;}
+	.nav3 {position:obsolute;
+			height:0px;
+			overflow:hidden;
+			transition:height 0.7s;
+			-moz-transition:height 0.7s;
+			-webkit-transition:height 0.7s;}
+	.nav2 .li:hover .nav3 {height:120px;}
+	.nav2 .li:nth-child(4):hover .nav3 {height:240px;}
+	.nav2 .li:nth-child(5):hover .nav3 {height:180px;}
+	#nav {height:60px;
+			background:#3d313f;
+			position:fixed;
+			z-index:100000;
+			top:0px;
+			width:1000px;}
+		/*导航栏属性end*/
+
+	/*正文属性start*/
+body{ width:1000px; margin:0 auto; background:url(../images/201918340420-liuyong-1601.jpg); background-size:cover;}
+img{ max-width:100%; display:block}
+ul,li{ list-style:none; margin:0; padding:0}
+a{ text-decoration:none}
+.content{background:#00CCFF; font-size:18px; line-height:30px; color:#fff; }
+.clear{ clear:both}
+.main{ position:relative; line-height:30px; color:#fff; border:#888 solid 1px; background:rgba(255,255,255,0.15); margin:0 auto}
+
+	/*定位属性start*/
+.left{ width:600px; float:left; margin:50px; margin-right:0;}
+.right{ width:220px; margin:50px; float:right}
+.middle{width:800px; float:center; margin:50px; margin-right:0;margin-left: 0px}
+.center{ width:800px; float:center; margin:100px;}
+	/*定位属性end*/
+    /*点击菜单属性start*/
+.menu{ background:#006699; padding:5px}
+.menu a{border:#999 solid 1px; color:#fff; padding:10px 30px; font-weight:bold; font-size:18px; display:inline-block}
+.menu a:hover{ background:#000033}
+	/*点击菜单属性end*/
+	/*图片属性start*/
+.imgs ul{ margin:0; padding:30px 0}
+.imgs li{ list-style:none; margin:0 1%; float:left; padding:0px 0; width:31%;}
+.imgs li img{ border:#999 dashed 1px; width:100%; height:200px}
+	/*图片属性start*/
+.info{ padding:20px 50px; color:#fff; line-height:30px}
+.ln{list-style:none;margin:0 -10px; padding:10px 0}
+.tit{ line-height:50px; border-bottom:#999 solid 2px;}
+.end{ text-align:center; color:aliceblue; padding:20px 0}  /*书签属性*/
+
+.video{ width:905px; margin:0px auto; padding:50px 0}      /*视频属性*/
+
+.title{ color:#66FFFF}                                     /*标题属性*/
+
+.list li{ width:24%; margin:0.5%; float:left}
+
+.zhuxingtu{background-color: aliceblue;}                    /*可视化代码属性*/
+iframe{margin-top: 10px;margin-left: 2px;}
+
+		/*首页页脚属性start*/
+footer{height: 70px;}
+footer p{margin-top: 10px;line-height: 16px; color: #EFEDED;text-align: center; font-size: 12px;}
+		/*首页页脚属性end*/
+		/*首页特殊属性start*/
+.index{padding-bottom:20px;}
+.index img{ margin-right:50px; border:#999 dashed 1px;   float:left}
+.index  h3{ color:#FFCC99; font-size:18px;margin-bottom:20px}
+.index p{ color:#ccc}
+		/*首页特殊属性end*/
+.act {font-size: 13px;line-height: 17px}
+.text {font-family: "幼圆";text-indent: 32px;line-height: 25px}
+.wenzi {font-family:"幼圆";line-height: 20px}
+.tt{ line-height:50px; border-bottom:#000000 solid 2px;}	
+		/*yxz图片属性start*/
+.imgss{ width:220px; margin:50px; float:right;margin-top: 80px}	
+.imgsss{ width:220px; margin:10px; float:left;margin-top: 0px;margin-left: 0px;}
+		/*yxz图片属性end*/
+		/*留言页属性start*/
+.word{font-family: "黑体";font-size:20px; margin-left: 100px;}   
+.position{padding-left: 100px;}
+.bd{ padding:20px 50px; color:#fff; line-height:30px;margin-left: 0px}
+		/*留言页属性end*/
+
+
+
+
+
